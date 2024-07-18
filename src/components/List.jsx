@@ -12,5 +12,5 @@ export const List = ({ buttonData, action }) => {
     <ListItem />
   ))
 
-  return <ul>{items}</ul>
+  return <ul>Buttons go here</ul>
 }
