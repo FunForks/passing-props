@@ -1,0 +1,8 @@
+[
+  { "id": "one",   "text": "first",  "color": "red"},
+  { "id": "two",   "text": "second", "color": "orange"},
+  { "id": "three", "text": "third",  "color": "green"},
+  { "id": "four",  "text": "fourth", "color": "darkcyan"},
+  { "id": "five",  "text": "fifth",  "color": "lightblue"},
+  { "id": "six",   "text": "sixth",  "color": "violet"}
+]
