@@ -3,15 +3,11 @@
  */
 
 
-export const ListItem = ({ action, text, color }) => {
+export const ListItem = (props) => {
   return (
-    <li
-      onClick={action}
-    >
-      <button   
-        style={{ color }}
-      >
-        {text}
+    <li>
+      <button>
+        Button
       </button>
     </li>
   )

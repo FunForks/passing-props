@@ -41,6 +41,17 @@ The challenge is to work out how to pass data from the `App.jsx` file to other c
 2. This function can set a `useState` variable from data that it receives when it is triggered, like you did in the Light Switch exercise
 3. The `<p>` element has direct access to any `useState` variable that is defined in App.jsx
 4. You can use the `.map()` Array method to generate an array of `<ListItem />` components
-5. One component can its `props` on to its own children
+5. One component can pass its `props` on to its own children
 6. An `onClick` action will generate an `event` object with a `target` property. (Remember what you know about [event delegation](https://www.google.com/search?q=event+delegation+react)?)
 7. The assignment rules say that you should not change the CSS file. But you can [ask Google](https://www.google.com/search?q=inline+style+react) how to apply an inline style to an element.
+
+### NOTE
+You might see errors in the Developer Console:
+> _Warning: Each child in a list should have a unique "key" prop._
+
+However, this will not stop your code from working. You can find an explanation of why React warns you about this [here](https://sentry.io/answers/understanding-unique-keys-for-array-children-in-react-js/).
+
+Bonus points if you can solve this on your own.
+
+### TIP
+My solution is contained somewhere in this repo. You have Git Ninja skills. You already know how to check out my solution after you have developed your own solution. It's almost as easy as falling off a log... 🤓

@@ -9,11 +9,7 @@ import { ListItem } from './ListItem'
 export const List = ({ buttonData, action }) => {
 
   const items = buttonData.map( item => (
-    <ListItem
-      key={item.id}
-      { ...item }
-      action={action}
-    />
+    <ListItem />
   ))
 
   return <ul>{items}</ul>
